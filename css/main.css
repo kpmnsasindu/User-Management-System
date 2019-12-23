@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+}
+
+body{
+	font-family: arial;
+	font-size: 20px;
+	
+
+}
+
+.login{
+	width:500px;
+	margin: 100px auto;
+}
+
+.error{
+	background: red;
+	border: 1px solid black;
+	color: white;
+	padding: 5px;
+}
+
+.info{
+	background: green;
+	border: 1px solid black;
+	color: white;
+	padding: 5px;
+}
+
+input{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	-webkit-box-sizing:border-box;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+p{
+	margin-top: 10px;
+}
+
+button{
+	width: 100%;
+	padding: 5px;
+	margin-top:30px;
+	-webkit-box-sizing:border-box;
+	font-size: 20px
+
+}
+
+header{
+	background: #aaa;
+	overflow: auto;
+	padding: 5px;
+}
+
+.appname{
+	float:left;
+}
+
+.logedin{
+	float: right;
+}
+
+main{
+	width: 1000px;
+	margin:30px auto;
+}
+
+main h1 {
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+main h1 span{
+	font-size: 20px;
+}
+
+table.masterlist{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+table.masterlist th {
+	background: #aaa;
+	text-align: left;
+}
+
+table.masterlist th, table.masterlist td{
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+form.userform label{
+	width: 30%;
+	float: left;
+}
+
+form.userform input{
+	width: 60%;
+}
+
+form.userform button{
+	width: 200px;
+}
+
+.errmsg{
+	background: red;
+	margin: 20px 0;
+	color: white;
+}
